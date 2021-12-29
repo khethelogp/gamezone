@@ -1,6 +1,7 @@
-import Home from './screens/Home';
+import 'react-native-gesture-handler';
 import AppLoading from 'expo-app-loading';
 import { useFonts } from 'expo-font';
+import AppDrawer from './routes/Drawer';
 
 
 export default function App() {
@@ -14,8 +15,11 @@ export default function App() {
   }
 
   return (
-    <Home />
+    <AppDrawer />
   );
 }
+
+
+
 
 
